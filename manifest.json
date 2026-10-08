@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Прячу вкладки не в твоей активной группе",
+  "version": "1.0",
+  "description": "Extension with a default side panel.",
+  "icons": {
+    "16": "images/icon.png"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["tabs",
+    "tabGroups",
+    "storage",
+    "windows"],
+    "background": {
+        "service_worker": "background.js"
+    }
+}

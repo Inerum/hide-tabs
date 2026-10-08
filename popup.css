@@ -1,0 +1,9 @@
+.pressed {
+    background-color: red;
+    color: black;
+}
+
+.unpressed {
+    background-color: green;
+    color: white;
+}
